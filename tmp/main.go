@@ -57,7 +57,7 @@ func drawGrid(pdf *gofpdf.Fpdf) {
 		_, lineHt := pdf.GetFontSize()
 		pdf.Text(x, lineHt, fmt.Sprintf("%d", int(x)))
 	}
-	for y:= 0.0; y<h; y =y +(w/20.0){
+	for y := 0.0; y < h; y = y + (w / 20.0) {
 		pdf.Line(0, y, w, y)
 		pdf.Text(0, y, fmt.Sprintf("%d", int(y)))
 	}
