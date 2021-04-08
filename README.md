@@ -1,1 +1,1 @@
-"# certificateGenerator"
+# certificateGenerator
