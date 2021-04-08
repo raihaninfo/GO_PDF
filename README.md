@@ -1,4 +1,6 @@
 # certificateGenerator
 
-installing this package
- go get github.com/jung-kurt/gofpdf
+## package
+
+    go get github.com/jung-kurt/gofpdf
+
