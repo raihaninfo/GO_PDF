@@ -43,7 +43,6 @@ func main() {
 	if err != nil {
 		panic(err)
 	}
-	//panic(err)
 }
 
 func drawGrid(pdf *gofpdf.Fpdf) {
