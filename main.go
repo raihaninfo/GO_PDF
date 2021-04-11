@@ -36,7 +36,7 @@ func main() {
 		{60, 300},
 	}, "F")
 
-	pdf.ImageOptions("images/logo.png", 275, 275, 92, 0, false, gofpdf.ImageOptions{
+	pdf.ImageOptions("images/logo.png", 275, 100, 92, 0, false, gofpdf.ImageOptions{
 		ReadDpi: true,
 	}, 0, "")
 
