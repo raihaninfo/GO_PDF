@@ -41,7 +41,7 @@ func main() {
 	}, 0, "")
 
 	// Grid
-	drawGrid(pdf)
+	// drawGrid(pdf)
 
 	err := pdf.OutputFileAndClose("p1.pdf")
 	if err != nil {
