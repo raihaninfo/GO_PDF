@@ -49,7 +49,8 @@ func main() {
 	}
 }
 
-func drawGrid(pdf *gofpdf.Fpdf) {
+// Grid Function
+/* func drawGrid(pdf *gofpdf.Fpdf) {
 	w, h := pdf.GetPageSize()
 	pdf.SetFont("courier", "", 12)
 	pdf.SetTextColor(80, 80, 80)
@@ -65,3 +66,4 @@ func drawGrid(pdf *gofpdf.Fpdf) {
 		pdf.Text(0, y, fmt.Sprintf("%d", int(y)))
 	}
 }
+*/
