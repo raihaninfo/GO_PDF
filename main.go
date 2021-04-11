@@ -18,7 +18,7 @@ func main() {
 	_, lineHt := pdf.GetFontSize()
 	pdf.SetTextColor(255, 0, 0)
 	pdf.Text(0, lineHt, "Hello, World!")
-	pdf.MoveTo(0, lineHt*2.0)
+	pdf.MoveTo(0, lineHt*1.5)
 	pdf.SetFont("times", "", 18)
 	pdf.SetTextColor(100, 100, 100)
 	_, lineHt = pdf.GetFontSize()
