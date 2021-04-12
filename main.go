@@ -46,7 +46,7 @@ func main() {
 
 	err := pdf.OutputFileAndClose("p1.pdf")
 	if err != nil {
-		panic(err)
+		fmt.Println(err.Error())
 	}
 }
 
