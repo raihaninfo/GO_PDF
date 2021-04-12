@@ -50,7 +50,7 @@ func main() {
 	}
 }
 
-// Grid Function
+//Page Grid Function
 /* func drawGrid(pdf *gofpdf.Fpdf) {
 	w, h := pdf.GetPageSize()
 	pdf.SetFont("courier", "", 12)
