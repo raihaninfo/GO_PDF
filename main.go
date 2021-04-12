@@ -5,7 +5,6 @@ import (
 
 	"github.com/jung-kurt/gofpdf"
 )
-
 func main() {
 	pdf := gofpdf.New(gofpdf.OrientationPortrait, gofpdf.UnitPoint, gofpdf.PageSizeLetter, "")
 	w, h := pdf.GetPageSize()
