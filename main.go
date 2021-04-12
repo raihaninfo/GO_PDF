@@ -5,6 +5,7 @@ import (
 
 	"github.com/jung-kurt/gofpdf"
 )
+
 func main() {
 	pdf := gofpdf.New(gofpdf.OrientationPortrait, gofpdf.UnitPoint, gofpdf.PageSizeLetter, "")
 	w, h := pdf.GetPageSize()
@@ -41,7 +42,6 @@ func main() {
 
 	// Grid
 	// drawGrid(pdf)
-
 	err := pdf.OutputFileAndClose("p1.pdf")
 	if err != nil {
 		panic(err)
