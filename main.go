@@ -25,7 +25,6 @@ func main() {
 	pdf.MultiCell(0, lineHt*1.0, "Hear is sum text, Ea voluptate reprehenderit enim esse amet tempor ut magna reprehenderit Non ullamco minim deserunt eiusmod id adipisicing nostrud sit aliquip incididunt quis aute.", gofpdf.BorderNone, gofpdf.AlignRight, false)
 
 	// Basic Shapes
-
 	pdf.SetFillColor(0, 255, 0)
 	pdf.SetDrawColor(0, 0, 255)
 	pdf.Rect(10, 100, 100, 100, "FD")
